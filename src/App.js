@@ -1,17 +1,14 @@
-import React from 'react';
-import {Route,Switch} from 'react-router-dom';
-import  Homeage  from './pages/HomePage';
-import UserPage from './pages/UserPage';
+import React,{Component} from 'react';
 
-
-export default function App()
-{
-    return(
-        <Switch>
-            <Route exact path="/" component={ Homeage } />
-            <Route path='/:id' component = { UserPage} />
-        </Switch>
-
-    )
+const App = () => {
+	const myvar=5;
+	const a=1+2
+	return(
+		<div>
+			<h1>Hello World</h1>
+			<h3>My Variable value:<b>{a}</b></h3>
+		</div>
+		)
 }
 
+export default App
