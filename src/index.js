@@ -2,7 +2,9 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 //import App from './App';
 //import funcomponent from 'funcomponent';
-import Form from './Form';
+//import Form from './Form';
+//import Mycomponent from './lift';
+import MainComponent from './hasavsisa'
 
 //reactDOM checks compares the element and its children to the previous on 
 //and applies to the only DOM updates neccessary to bring the desired state. 
@@ -43,4 +45,6 @@ import Form from './Form';
 // setInterval(tick,1000);
 
 
-ReactDOM.render(<Form name="name"/>,document.getElementById('root'));
+//ReactDOM.render(<Mycomponent temp="10"/>,document.getElementById('root'));
+
+ReactDOM.render(<MainComponent />,document.getElementById('root'));
