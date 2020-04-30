@@ -7,7 +7,7 @@
     "axios": "^0.19.0",
     "devextreme": "^19.1.4",
     "devextreme-react": "^19.1.4",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "react": "^16.8.6",
     "react-contexify": "^4.1.1",
     "react-dom": "^16.8.6",
